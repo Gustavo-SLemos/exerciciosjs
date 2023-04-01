@@ -1,0 +1,14 @@
+
+<!-- Foi elaborado um programa que lê 2 notas de um aluno em determinada disciplina, calcula e informa a média das notas. -->
+
+<script>
+    const nota1 = Number(prompt("Digite a primeira nota de 0 a 10"));
+    const nota2 = Number(prompt("Digite a segunda nota de 0 a 10"));
+    if((nota1 >= 0 && nota1 <= 10) && (nota2 >= 0 && nota2 <= 10)) {
+        alert(`A média das notas na disciplina X foi de ${((nota1 + nota2)/2).toFixed(2)}`);
+    }
+    else {
+        alert(`As notas devem estar entre 0 e 10. Por favor, digite novamente.`);
+    }
+    
+</script>
