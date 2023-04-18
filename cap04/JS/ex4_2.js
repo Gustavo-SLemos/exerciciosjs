@@ -18,3 +18,7 @@ frm.addEventListener("submit", (e) => {
 
     resp.innerText = `${nome}: Seu peso ideal é ${peso.toFixed(3)} kg`
 })
+
+frm.addEventListener("reset", () => {
+    resp.innerText = ""
+})
