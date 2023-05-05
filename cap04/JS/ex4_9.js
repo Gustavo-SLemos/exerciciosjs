@@ -23,4 +23,5 @@ frm.addEventListener("submit", (e) => {
         resp1.innerText = "Tempo: 120 min";
         resp2.innerText = `Troco R$: ${(valor - 3).toFixed(2)}`;
     }
+
 });
