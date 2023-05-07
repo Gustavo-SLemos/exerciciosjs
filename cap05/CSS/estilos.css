@@ -2,12 +2,14 @@ img.normal {
     float: left;
     height: 380px;
     width: 300px;
+    margin-right: 1rem;
 }
 
 img.alta {
     float: left;
     height: 420px;
     width: 300px;
+    margin-right: 1rem;
 }
 
 h1 {
