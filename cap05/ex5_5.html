@@ -1,0 +1,31 @@
+<!-- O programa faz a leitura de contas que devem ser pagas por um usuário. As contas são exibidas e no final da listagem o número de contas (contador) e a soma dos valores (acumulador) são destacados.-->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/estilos.css" />
+    <link rel="icon" href="./IMG/contas.jpg" />
+    <title>Programa Contas do Mês</title>
+  </head>
+  <body>
+    <img class="normal" src="./IMG/contas.jpg" alt="cofrinho de dinheiro" />
+    <h1>Programa Contas do Mês</h1>
+    <form>
+      <p>
+        Descrição da Conta:
+        <input id="descricaoConta" type="text" required />
+      </p>
+      <p>Valor a Pagar R$: 
+        <input id="valorConta" type="number" min="0" step="0.01" required>
+      </p>
+      <input type="submit" value="Registrar Conta">
+    </form>
+    <pre></pre>
+    <h3></h3>
+
+    <script src="./JS/ex5_5.js"></script>
+  </body>
+</html>
